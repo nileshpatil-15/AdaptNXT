@@ -6,28 +6,38 @@ import { LiaLanguageSolid } from "react-icons/lia";
 function Navbar() {
   return (
     <header className="d-flex justify-content-between  p-4 bg-white custom-box shadow ">
-    <div className="d-flex" >
-        <img  className="px-5"  src='unknown'/>
-        <button style={{border: 'none'}} className="mx-5 ml-5 bg-transparent fs-2">
-        <RxHamburgerMenu />
+      <div className="d-flex">
+        <img className="px-5" src="unknown" />
+        <button
+          style={{ border: "none" }}
+          className="mx-5 ml-5 bg-transparent fs-2"
+        >
+          <RxHamburgerMenu />
         </button>
-    </div>
-    <div className="">
-        <button style={{border: 'none'}} className="mx-2   bg-transparent fs-4">
-        <IoMoonOutline/>
-        </button >
-        <button style={{border: 'none'}} className="mx-2  bg-transparent fs-4" >
-        <  IoIosNotificationsOutline/>
-
+      </div>
+      <div className="">
+        <button
+          style={{ border: "none" }}
+          className="mx-2   bg-transparent fs-4"
+        >
+          <IoMoonOutline />
         </button>
-        <button style={{border: 'none'}} className="mx-2  bg-transparent fs-4">
-        <LiaLanguageSolid/>
-
+        <button
+          style={{ border: "none" }}
+          className="mx-2  bg-transparent fs-4"
+        >
+          <IoIosNotificationsOutline />
         </button>
-<img src='unknown'/>
-    </div>
+        <button
+          style={{ border: "none" }}
+          className="mx-2  bg-transparent fs-4"
+        >
+          <LiaLanguageSolid />
+        </button>
+        <img src="unknown" />
+      </div>
     </header>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

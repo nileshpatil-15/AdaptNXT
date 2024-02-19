@@ -10,6 +10,7 @@ body{
   font-family: 'Open Sans';
   background-color:#e9edf0;
   scrollbar-color: #a4a0a0 #f1f1f1; 
+
 }
 
 ::-webkit-scrollbar {
@@ -36,4 +37,3 @@ button{
   border: none;
   background-color: transparent;
 }
-

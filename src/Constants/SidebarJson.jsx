@@ -5,37 +5,39 @@ import { CgNotes } from "react-icons/cg";
 import { ImTruck } from "react-icons/im";
 import { AiOutlineShareAlt } from "react-icons/ai";
 
-export const sideBarJson=[
-    {
-        id:1,
-        title:'Dashboard',
-        source:<IoMdShare />
+export const sideBarJson = [
+  {
+    id: 1,
+    title: "Dashboard",
+    source: <IoMdShare />,
+  },
+  {
+    id: 2,
+    title: "Inventory",
+    source: <IoPricetagOutline />,
+  },
+  {
+    id: 3,
+    title: "Orders",
+    source: <CgNotes />,
+  },
+  {
+    id: 4,
+    title: "Shipping",
+    source: <ImTruck />,
+  },
+  {
+    id: 5,
+    title: "Channel",
+    source: <AiOutlineShareAlt />,
+  },
+];
 
-    },
-    {
-        id:2,
-        title:'Inventory',
-        source:<IoPricetagOutline />
-
-    },
-    {
-        id:3,
-        title:'Orders',
-        source:<CgNotes />
-
-    },
-    {
-        id:4,
-        title:'Shipping',
-        source:<ImTruck />
-
-    },
-    {
-        id:5,
-        title:'Channel',
-        source:<AiOutlineShareAlt />
-
-    }
-]
-
-export const  orderStatusJson=['pending','Accepted','Ready to Ship','Shipped','Completed','Cancelled']
+export const orderStatusJson = [
+  "pending",
+  "Accepted",
+  "Ready to Ship",
+  "Shipped",
+  "Completed",
+  "Cancelled",
+];
