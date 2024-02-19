@@ -11,5 +11,6 @@ git clone https://github.com/your-username/eCommerce-Website.git
 cd eCommerce-Website
 npm i
 npm run dev
-Deployed URL
-The website is deployed and can be accessed at YourDeployedURLHere: https://adaptnxtapplication.netlify.app/
+
+
+The website is deployed and can be accessed at: https://adaptnxtapplication.netlify.app/
