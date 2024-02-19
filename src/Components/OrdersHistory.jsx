@@ -13,7 +13,7 @@ import { SingleOrderJson } from '../Constants/SingleOrderJson';
 
 const OrdersHistory = () => {
   return (
-    <div style={{height:'400px'}} className='bg-light py-3 px-2 overflow-scroll   '>
+    <div  className='bg-light py-3 px-2    '>
        <div className='d-flex justify-content-between'>
 
     <div>
@@ -33,7 +33,7 @@ const OrdersHistory = () => {
 <span className='px-1'>Refresh</span>
     </button>
 </div>
-<table className="table mt-4">
+<table className="table mt-4" >
       <thead>
         <tr>
           <th className='-primary'></th>
@@ -49,7 +49,7 @@ const OrdersHistory = () => {
 
         </tr>
       </thead>
-      <tbody className='py-3'>
+      <tbody  className='py-3 '>
         {SingleOrderJson?.map((item)=>{
             return(
                 <tr key={item.id} className=''>
