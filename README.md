@@ -1,8 +1,15 @@
-# React + Vite
+AdaptNXT
+Projectoverview
+![image](https://github.com/nileshpatil-15/AdaptNXT/assets/113256649/2af69bfe-71c6-482e-a0eb-ad4f1426a659)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The eCommerce website is a modern online platform designed to facilitate the buying and selling of goods and services. It provides users with a seamless shopping experience, allowing them to browse through a wide range of products, add items to their cart, and securely complete transactions.
 
-Currently, two official plugins are available:
+Instructions to Run the Project
+To run the project locally, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/your-username/eCommerce-Website.git
+cd eCommerce-Website
+npm i
+npm run dev
+Deployed URL
+The website is deployed and can be accessed at YourDeployedURLHere: https://adaptnxtapplication.netlify.app/
