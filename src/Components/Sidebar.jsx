@@ -7,7 +7,7 @@ const handleOption=(id)=>{
 }
 
   return (
-    <ul style={{width: '200px',height: '100vh',overflowY: 'hidden' }}className="list-unstyled bg-white my-2  ">
+    <ul style={{width: '200px ' }}className="list-unstyled    h-75 bg-light ">
       {sideBarJson?.map((item) => {
         return (
           <li key={item.id} 

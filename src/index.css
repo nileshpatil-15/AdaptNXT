@@ -1,14 +1,17 @@
-
+html, #root{
+height: 100vh;
+}
 
 body{
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans';
-  background-color: hsl(0, 33%, 98%);
+  background-color: hsl(0, 7%, 86%);
 }
 
 p{
   font-size: 19px;
 }
+
