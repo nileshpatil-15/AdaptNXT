@@ -17,7 +17,10 @@ const Orders = () => {
             <MdOutlineCancel />
           </span>
         </button>
+        <button className="fs-4">
         <IoSettingsOutline />
+
+        </button>
       </div>
       {/* order status tabs container */}
       <ul className="d-flex list-unstyled ">
