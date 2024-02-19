@@ -10,7 +10,7 @@ function Navbar() {
         <img className="px-5" src="unknown" />
         <button
           style={{ border: "none" }}
-          className="mx-5 ml-5 bg-transparent fs-2"
+          className="mx-5 ml-5 bg-transparent fs-5"
         >
           <RxHamburgerMenu />
         </button>
@@ -18,19 +18,19 @@ function Navbar() {
       <div className="">
         <button
           style={{ border: "none" }}
-          className="mx-2   bg-transparent fs-4"
+          className="mx-2   bg-transparent fs-5"
         >
           <IoMoonOutline />
         </button>
         <button
           style={{ border: "none" }}
-          className="mx-2  bg-transparent fs-4"
+          className="mx-2  bg-transparent fs-5"
         >
           <IoIosNotificationsOutline />
         </button>
         <button
           style={{ border: "none" }}
-          className="mx-2  bg-transparent fs-4"
+          className="mx-2  bg-transparent fs-5"
         >
           <LiaLanguageSolid />
         </button>
